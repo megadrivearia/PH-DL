@@ -3,7 +3,7 @@ import youtube_dl
 def main():
     print("[PH] Pornhub Simple Downloader | github.com/im-bb") #XD
     print("[!] Auto Loop Script, Use Control + C to Stop")
-    directory = input("[*] Folder Directory for Saving : ")
+    directory = input("[*] Folder Directory for Saving : /content/")
     while True:
         url = input("[*] Pornhub Videos Url : ")
         dire = directory+'/phdl/%(title)s.%(ext)s'
